@@ -13,8 +13,9 @@ int main (){
 	
 	
 	// chamando as funções
-	firstMenu();
+	homeMenu();
 	
+	//usando loop para não encerrar a aplicação
 	while(1){
 	
 	cout << "1- Registar-se." << endl;
@@ -26,16 +27,26 @@ int main (){
 	cout << "Opção:";
 	cin >> option;
 	cout << endl;
+	
+	//bloco de código utilizando switch case
 	switch(option){
 		
+		case 1:
+			createUser();
+		
+			break;
+		case 2:
+			
+			firstMenu();
+			break;
+			
+			
 		case 3:
 			functionSair();
 			return 0;
 			
 		default:
 			cout << "Opção inválida, tente novamente!" << endl << endl;
-		
-		
 }
 	
 }
