@@ -1,14 +1,20 @@
-#include <iostream>
-#include <locale>
+// chamando meu arquivo de funções separado do main
+#include "functions.h"
 
-// usar biblioteca locale para correta acentuaï¿½ï¿½o do portuguï¿½s
-
-using namespace std;
 
 int main (){
 	
+	// usar biblioteca locale para correta acentuação do português 
 	setlocale(LC_ALL, "");
 	
-	cout << "Comeï¿½o de tudo!! ;D";
+	firstMenu();
+	
+	cout << "##### Lista Opções ######" << endl;
+	cout << "1- Registar-se." << endl;
+	cout << "2- Sair." << endl;
+	
+	
+	
+	//funcaoSAIR();
 	
 }
