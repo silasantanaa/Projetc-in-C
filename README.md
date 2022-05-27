@@ -8,4 +8,6 @@
 1. **Add Switch Case for code blocks**
    * Add Switch Default for wrong option
 3. **Add While for loop**
+4. **Fix functionSair();**
+   * Utilising "Return 0" for stop application
 
