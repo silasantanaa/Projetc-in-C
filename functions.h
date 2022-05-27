@@ -5,6 +5,17 @@ using namespace std;
 
     string user;
 	int password = 0, passwordd = 0;
+	
+void homeMenu(){
+	
+	cout << "########## ";
+	cout << "Bem-Vindo";
+	cout << " ##########";
+	cout << endl;
+	cout << endl;
+	
+	cout << "Para ter acesso a funcionalidades do programa é necessário criar um usuário!" << endl << endl;
+}
 
 createUser(){
 	
@@ -36,8 +47,8 @@ firstMenu(){
 	cin >> userr;
 	
 	if(userr!=user){
-		cout << "Usuário inválido!" << endl;
-		return firstMenu();
+		cout << "Usuário inválido!" << endl << endl;
+		return 0;
 	}
 
 	cout << "Digite sua senha:";
@@ -53,16 +64,7 @@ firstMenu(){
 	}
 }
 
-void homeMenu(){
-	
-	cout << "########## ";
-	cout << "Bem-Vindo";
-	cout << " ##########";
-	cout << endl;
-	cout << endl;
-	
-	cout << "Para ter acesso a funcionalidades do programa é necessário criar um usuário!" << endl << endl;
-}
+
 
 void functionSair(){
 
@@ -72,5 +74,29 @@ void functionSair(){
     	
 	} 
 	
-	cout << "Você saiu com sucesso!";
+	cout << "Você saiu com sucesso!" << endl << endl;
+}
+
+secondMenu(){
+	
+	int optionSwitch = 0;
+	
+	while(1){
+	
+	cout << "##### Menu #####" << endl;
+	cout << "1- Somar." << endl;
+	cout << "2- Multiplicar." << endl;
+	cout << "3- Dividir." << endl;
+	cout << "4- Sair." << endl;
+	cin >> optionSwitch;
+	
+	switch(optionSwitch){
+		
+		case 4:
+			functionSair();
+			return 0;
+	}
+	
+	}
+	
 }

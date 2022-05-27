@@ -36,15 +36,13 @@ int main (){
 		
 			break;
 		case 2:
-			
 			firstMenu();
 			break;
-			
-			
+			secondMenu();
+			break;
 		case 3:
 			functionSair();
 			return 0;
-			
 		default:
 			cout << "Opção inválida, tente novamente!" << endl << endl;
 }
