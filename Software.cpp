@@ -15,6 +15,8 @@ int main (){
 	// chamando as funções
 	firstMenu();
 	
+	while(1){
+	
 	cout << "1- Registar-se." << endl;
 	cout << "2- Entrar." << endl;
 	cout << "3- Sair." << endl;
@@ -24,11 +26,18 @@ int main (){
 	cout << "Opção:";
 	cin >> option;
 	cout << endl;
+	switch(option){
+		
+		case 3:
+			functionSair();
+			return 0;
+			
+		default:
+			cout << "Opção inválida, tente novamente!" << endl << endl;
+		
+		
+}
 	
-	if (option==3){
-		
-		functionSair();
-		
-	}
+}
 
 }
