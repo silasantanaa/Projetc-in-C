@@ -3,3 +3,9 @@
 
 ***Vou desenvolver um software que para ter acesso a funcionalidades do mesmo é preciso criar um usuário e senha.***
 
+# Update
+
+1. **Add Switch Case for code blocks**
+   * Add Switch Default for wrong option
+3. **Add While for loop**
+
