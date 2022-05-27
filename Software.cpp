@@ -7,14 +7,28 @@ int main (){
 	// usar biblioteca locale para correta acentuação do português 
 	setlocale(LC_ALL, "");
 	
+	
+	// variaves do scope
+	int option;
+	
+	
+	// chamando as funções
 	firstMenu();
 	
-	cout << "##### Lista Opções ######" << endl;
 	cout << "1- Registar-se." << endl;
-	cout << "2- Sair." << endl;
+	cout << "2- Entrar." << endl;
+	cout << "3- Sair." << endl;
 	
+	//escolha da opção para varivel option
+	cout << endl;
+	cout << "Opção:";
+	cin >> option;
+	cout << endl;
 	
-	
-	//funcaoSAIR();
-	
+	if (option==3){
+		
+		functionSair();
+		
+	}
+
 }

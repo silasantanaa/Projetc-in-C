@@ -4,11 +4,10 @@
 using namespace std;
 
 
-
-
 void createUser(){
 	
-	
+	string user;
+	int password;
 	
 }
 
@@ -24,8 +23,8 @@ void firstMenu (){
 	cout << "Para ter acesso a funcionalidades do programa é necessário criar um usuário!" << endl << endl;
 }
 
-void funcaoSAIR()
-{
+void functionSair(){
+	
 	
     for(int sec =3; sec >=1; sec--){
     	
@@ -34,4 +33,6 @@ void funcaoSAIR()
 	} 
 	
 	cout << "Você saiu com sucesso!";
+	
+	
 }
