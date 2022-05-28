@@ -33,11 +33,11 @@ int main (){
 		
 		case 1:
 			createUser();
-		
 			break;
 		case 2:
 			firstMenu();
 			break;
+			
 			secondMenu();
 			break;
 		case 3:

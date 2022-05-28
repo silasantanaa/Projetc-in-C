@@ -84,9 +84,9 @@ secondMenu(){
 	while(1){
 	
 	cout << "##### Menu #####" << endl;
-	cout << "1- Somar." << endl;
-	cout << "2- Multiplicar." << endl;
-	cout << "3- Dividir." << endl;
+	cout << "1- ." << endl;
+	cout << "2- ." << endl;
+	cout << "3- ." << endl;
 	cout << "4- Sair." << endl;
 	cin >> optionSwitch;
 	
