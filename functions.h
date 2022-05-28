@@ -1,10 +1,13 @@
 #include <iostream>
 #include <locale>
+#include <string.h>
 
 using namespace std;
-
-    string user;
-	int password = 0, passwordd = 0;
+	
+	char user[11];
+	int password = 0;
+	int passwordd = 0;
+	
 	
 void homeMenu(){
 	
@@ -22,8 +25,18 @@ void homeMenu(){
 
 createUser(){
 	
-	cout << "Insira o nome de usuário:";
+	
+	int count = 0;
+	
+	cout << "Insira o nome de usuário, max 10 caracteres:";
 	cin >> user;
+	count = strlen(user);
+	
+	if(count>=11){
+		cout << "Só é permitido o máximo de 10 caracteres!" << endl << endl;
+		return createUser();
+	}
+	
 	cout << "Insira sua senha:";
 	cin >> password;
 	cout << "Insira novamente sua senha:";
