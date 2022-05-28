@@ -61,7 +61,7 @@ firstMenu(){
 	
 	if(userr!=user){
 		cout << "Usuário inválido!" << endl << endl;
-		return 0;
+		return firstMenu();
 	}
 
 	cout << "Digite sua senha:";
