@@ -61,6 +61,7 @@ firstMenu(){
 	
 	if(userr!=user){
 		cout << "Usuário inválido!" << endl << endl;
+		count++;
 		return firstMenu();
 	}
 
@@ -87,9 +88,9 @@ secondMenu(){
 	
 	cout << "##### Menu #####" << endl;
 	cout << "1- ." << endl;
-	cout << "2- ." << endl;
-	cout << "3- ." << endl;
-	cout << "4- Sair." << endl;
+	cout << "2-Horário." << endl;
+	cout << "3-Tabuada." << endl;
+	cout << "4-Sair." << endl;
 	cin >> optionSwitch;
 	
 	switch(optionSwitch){
