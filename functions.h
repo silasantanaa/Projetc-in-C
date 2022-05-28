@@ -37,6 +37,16 @@ createUser(){
 	return createUser();
 }
 
+void functionSair(){
+
+    for(int sec =3; sec >=1; sec--){
+    	
+    	cout << "Saindo em " << sec << endl;
+    	
+	} 
+	cout << "Você saiu com sucesso!" << endl << endl;
+}
+
 firstMenu(){
 	
 	int count = 0;
@@ -59,22 +69,11 @@ firstMenu(){
 		return firstMenu();
 	}
 	else{
-		cout << "Você logou com sucesso!" << endl; 
 		cout << endl;
+		cout << "Olá " << userr <<", você logou com sucesso!" << endl; 
+		cout << endl;
+		
 	}
-}
-
-
-
-void functionSair(){
-
-    for(int sec =3; sec >=1; sec--){
-    	
-    	cout << "Saindo em " << sec << endl;
-    	
-	} 
-	
-	cout << "Você saiu com sucesso!" << endl << endl;
 }
 
 secondMenu(){
@@ -95,8 +94,11 @@ secondMenu(){
 		case 4:
 			functionSair();
 			return 0;
+			
+		default:
+			cout << "Opção inválida, tente novamente!" << endl << endl;
 	}
 	
 	}
-	
 }
+

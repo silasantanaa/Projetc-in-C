@@ -36,8 +36,6 @@ int main (){
 			break;
 		case 2:
 			firstMenu();
-			break;
-			
 			secondMenu();
 			break;
 		case 3:
