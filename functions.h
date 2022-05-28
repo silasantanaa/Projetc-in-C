@@ -14,6 +14,9 @@ void homeMenu(){
 	cout << endl;
 	cout << endl;
 	
+	cout << "SILAS SANTANA\n";
+	cout << "E-mail: silassantana@outlook.com\n\n";
+	
 	cout << "Para ter acesso a funcionalidades do programa é necessário criar um usuário!" << endl << endl;
 }
 
