@@ -128,6 +128,10 @@ void retornarMain(){
 	cout << "Retornando ao menu principal!" << endl << endl;
 }
 
+void retornarSecondMenu(){
+	cout << "Retornando ao Menu do Usuário!" << endl << endl;
+}
+
 secondMenu(){
 	
 	int optionSwitch = 0;
@@ -149,6 +153,9 @@ secondMenu(){
 		
 		case 3:
 			functionTabuada();
+			//Função retornar Menu Usuário
+			retornarSecondMenu();
+			secondMenu();
 		
 		case 4:
 			retornarMain();
