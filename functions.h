@@ -62,16 +62,6 @@ void functionSair(){
 	cout << "Você saiu com sucesso!" << endl << endl;
 }
 
-void retornarMain(){
-
-    for(int sec =3; sec >=1; sec--){
-    	
-    	cout << "Saindo em " << sec << endl;
-    	
-	} 
-	cout << "Retornando ao menu principal!" << endl << endl;
-}
-
 firstMenu(){
 	
 	int count = 0;
@@ -102,6 +92,42 @@ firstMenu(){
 	}
 }
 
+//Funções do segundo Menu
+
+void functionTabuada(){
+	
+	int num = 0;
+	string choose;
+	
+	cout << "Digite a tabuada que você deseja:";
+	cin >> num;
+	
+	for(int y = 1; y <=10; y++){
+		
+		cout << y << " x " << num << " =" << y*num << endl; 
+	}
+	
+	cout << "Você quer continuar fazendo tabuada? Y ou N:";
+	cin >> choose;
+	if(choose== "Y" or choose=="y"){
+		cout << "Resetando a tabuada!" << endl << endl;
+		return functionTabuada();
+	}
+	
+}
+
+//Função retornar Menu Principal
+
+void retornarMain(){
+
+    for(int sec =3; sec >=1; sec--){
+    	
+    	cout << "Saindo em " << sec << endl;
+    	
+	} 
+	cout << "Retornando ao menu principal!" << endl << endl;
+}
+
 secondMenu(){
 	
 	int optionSwitch = 0;
@@ -119,8 +145,10 @@ secondMenu(){
 	cin >> optionSwitch;
 	cout << endl;
 	
-	
 	switch(optionSwitch){
+		
+		case 3:
+			functionTabuada();
 		
 		case 4:
 			retornarMain();
@@ -132,4 +160,6 @@ secondMenu(){
 	
 	}
 }
+
+
 
