@@ -40,6 +40,7 @@ int main (){
 			break;
 		case 3:
 			functionSair();
+			system("pause");
 			return 0;
 		default:
 			cout << "Opção inválida, tente novamente!" << endl << endl;

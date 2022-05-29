@@ -62,6 +62,16 @@ void functionSair(){
 	cout << "Você saiu com sucesso!" << endl << endl;
 }
 
+void retornarMain(){
+
+    for(int sec =3; sec >=1; sec--){
+    	
+    	cout << "Saindo em " << sec << endl;
+    	
+	} 
+	cout << "Retornando ao menu principal!" << endl << endl;
+}
+
 firstMenu(){
 	
 	int count = 0;
@@ -113,7 +123,7 @@ secondMenu(){
 	switch(optionSwitch){
 		
 		case 4:
-			functionSair();
+			retornarMain();
 			return 0;
 			
 		default:
