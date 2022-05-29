@@ -103,7 +103,12 @@ secondMenu(){
 	cout << "2-Horário." << endl;
 	cout << "3-Tabuada." << endl;
 	cout << "4-Sair." << endl;
+	
+	cout << endl;
+	cout << "Opção:";
 	cin >> optionSwitch;
+	cout << endl;
+	
 	
 	switch(optionSwitch){
 		
