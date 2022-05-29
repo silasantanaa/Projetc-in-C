@@ -25,7 +25,6 @@ void homeMenu(){
 
 createUser(){
 	
-	
 	int count = 0;
 	
 	cout << "Insira o nome de usuário, max 10 caracteres:";
