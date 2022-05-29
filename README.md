@@ -12,3 +12,4 @@
 3. **Fix functionSair(); in code block case 3**
    * Utilising "Return 0" for stop application
 4. **Add Second Menu for user when registered**
+   * Add functionMain(); for return main menu
