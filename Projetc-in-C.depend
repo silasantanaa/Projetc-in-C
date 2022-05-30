@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1653943101 source:c:\users\desktop\documents\myprojects c++\projetc-in-c\functions.cpp
+	"functions.h"
+
+1653943370 c:\users\desktop\documents\myprojects c++\projetc-in-c\functions.h
+	<iostream>
+	<locale>
+	<string.h>
+	<sstream>
+
+1653940762 source:c:\users\desktop\documents\myprojects c++\projetc-in-c\main.cpp
+	"functions.h"
+
