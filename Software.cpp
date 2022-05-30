@@ -3,34 +3,38 @@
 
 
 int main (){
-	
-	// usar biblioteca locale para correta acentuação do português 
+
+	// usar biblioteca locale para correta acentuação do português
 	setlocale(LC_ALL, "");
-	
-	
+
+
 	// variaves do scope
 	int option;
-	
-	
+	string convert;
+
+
 	// chamando as funções
 	homeMenu();
-	
+
 	// usando loop para não encerrar a aplicação
 	while(1){
-	
+
 	cout << "1- Registar-se." << endl;
 	cout << "2- Entrar." << endl;
 	cout << "3- Sair." << endl;
-	
+
 	//escolha da opção para varivel option
 	cout << endl;
 	cout << "Opção:";
-	cin >> option;
+	cin >> convert;
+
+	// header para converter string em int
+	istringstream(convert) >> option;
 	cout << endl;
-	
-	//bloco de código utilizando switch case
+
+	// bloco de código utilizando switch case
 	switch(option){
-		
+
 		case 1:
 			createUser();
 			break;
@@ -45,7 +49,7 @@ int main (){
 		default:
 			cout << "Opção inválida, tente novamente!" << endl << endl;
 }
-	
+
 }
 
 }
