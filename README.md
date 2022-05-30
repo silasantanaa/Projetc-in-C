@@ -13,3 +13,9 @@
    * Utilising "Return 0" for stop application
 4. **Add Second Menu for user when registered**
    * Add functionMain(); for return main menu
+5. **Fix the menu crash in loop**
+   * Add Header SSTREAM for convert string into integer  
+coz this made the menu crash in loop when using a string instead of int
+&nbsp;
+
+
