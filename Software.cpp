@@ -1,4 +1,4 @@
-// chamando meu arquivo de funções separado do main
+// chamando arquivo de funções separado do main
 #include "functions.h"
 
 
@@ -15,7 +15,7 @@ int main (){
 	// chamando as funções
 	homeMenu();
 	
-	//usando loop para não encerrar a aplicação
+	// usando loop para não encerrar a aplicação
 	while(1){
 	
 	cout << "1- Registar-se." << endl;

@@ -92,7 +92,7 @@ firstMenu(){
 	}
 }
 
-//Funções do segundo Menu
+// Funções do segundo Menu
 
 void functionTabuada(){
 	
@@ -116,7 +116,7 @@ void functionTabuada(){
 	
 }
 
-//Função retornar Menu Principal
+// Função retornar Menu Principal
 
 void retornarMain(){
 
@@ -153,7 +153,7 @@ secondMenu(){
 		
 		case 3:
 			functionTabuada();
-			//Função retornar Menu Usuário
+			// Função retornar Menu Usuário
 			retornarSecondMenu();
 			secondMenu();
 		
