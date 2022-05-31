@@ -37,19 +37,21 @@ int main(){
 		case 1:
 			createUser();
 			break;
+
 		case 2:
 			firstMenu();
 			secondMenu();
 			break;
+
 		case 3:
 			functionSair();
 			system("pause");
 			return 0;
+
 		default:
 			cout << "Opção inválida, tente novamente!" << endl << endl;
 }
 
 }
-
 
 }
