@@ -1,6 +1,6 @@
 #include "functions.h"
 
-char user[11];
+    char user[11];
 	int password = 0;
 	int passwordd = 0;
 
@@ -85,10 +85,11 @@ firstMenu(){
 		cout << endl;
 
 	}
+
+	return 0;
 }
 
 // Funções do segundo Menu
-
 void functionTabuada(){
 
 	int num = 0;
@@ -112,24 +113,27 @@ void functionTabuada(){
 }
 
 // Função retornar Menu Principal
+retornarMain(){
 
-void retornarMain(){
+    int sec = 3;
+    while (sec >=1){
+        cout << "Saindo em " << sec << endl;
+        sec --;
+    }
 
-    for(int sec =3; sec >=1; sec--){
-
-    	cout << "Saindo em " << sec << endl;
-
-	}
-	cout << "Retornando ao menu principal!" << endl << endl;
+    cout << "Retornando ao Menu Principal!" << endl << endl;
+    return 0;
 }
 
-void retornarSecondMenu(){
+retornarSecondMenu(){
 	cout << "Retornando ao Menu do Usuário!" << endl << endl;
+	return 0;
 }
 
 secondMenu(){
 
 	int optionSwitch = 0;
+	string convert;
 
 	while(1){
 
@@ -141,7 +145,8 @@ secondMenu(){
 
 	cout << endl;
 	cout << "Opção:";
-	cin >> optionSwitch;
+	cin >> convert;
+	istringstream(convert) >> optionSwitch;
 	cout << endl;
 
 	switch(optionSwitch){

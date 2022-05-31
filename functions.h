@@ -9,16 +9,15 @@
 using namespace std;
 
 
-
-
 // header funções
 void homeMenu();
 int createUser();
 void functionSair();
 int firstMenu();
 void functionTabuada();
-void retornarMain();
+int retornarMain();
 int secondMenu();
+int retornarSecondMenu();
 
 
 
