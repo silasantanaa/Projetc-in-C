@@ -150,7 +150,7 @@ secondMenu(){
 	cout << "1- ." << endl;
 	cout << "2-Horário." << endl;
 	cout << "3-Tabuada." << endl;
-	cout << "3-Alterar Informações." << endl;
+	cout << "4-Alterar Informações." << endl;
 	cout << "5-Sair." << endl;
 
 	cout << endl;
@@ -160,6 +160,8 @@ secondMenu(){
 	cout << endl;
 
 	switch(optionSwitch){
+
+	    case 1:
 
         case 2:
             functionHour();
