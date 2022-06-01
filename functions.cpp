@@ -119,9 +119,12 @@ retornarMain(){
     while (sec >=1){
         cout << "Saindo em " << sec << endl;
         sec --;
+        Sleep(1000);
     }
 
     cout << "Retornando ao Menu Principal!" << endl << endl;
+    Sleep(1500);
+    system("cls");
     return 0;
 }
 
@@ -170,6 +173,8 @@ secondMenu(){
 			functionTabuada();
 			retornarSecondMenu();
 
+        case 4:
+
 		case 5:
 			retornarMain();
 			return 0;
@@ -177,6 +182,7 @@ secondMenu(){
 		default:
 			cout << "Opção inválida, tente novamente!" << endl << endl;
 	}
+
 
 	}
 }
