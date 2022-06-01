@@ -5,6 +5,7 @@
 #include <locale>
 #include <string.h>
 #include <sstream>
+#include <windows.h>
 
 using namespace std;
 
@@ -18,6 +19,7 @@ void functionTabuada();
 int retornarMain();
 int secondMenu();
 int retornarSecondMenu();
+int functionHour();
 
 
 
