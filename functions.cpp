@@ -53,6 +53,8 @@ void functionSair(){
 
     	cout << "Saindo em " << sec << endl;
 
+    	Sleep(1000);
+
 	}
 	cout << "Você saiu com sucesso!" << endl << endl;
 }
@@ -139,7 +141,6 @@ retornarSecondMenu(){
 functionHour(){
 
     return 0;
-
 }
 
 secondMenu(){
@@ -164,8 +165,6 @@ secondMenu(){
 
 	switch(optionSwitch){
 
-	    case 1:
-
         case 2:
             functionHour();
 
@@ -173,16 +172,14 @@ secondMenu(){
 			functionTabuada();
 			retornarSecondMenu();
 
-        case 4:
-
 		case 5:
 			retornarMain();
+			homeMenu();
 			return 0;
 
 		default:
 			cout << "Opção inválida, tente novamente!" << endl << endl;
 	}
-
 
 	}
 }
