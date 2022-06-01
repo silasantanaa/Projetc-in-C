@@ -1,8 +1,8 @@
 #include "functions.h"
 
     char user[11];
-	int password = 0;
-	int passwordd = 0;
+	string password;
+	string passwordd;
 
 void homeMenu(){
 
@@ -63,7 +63,7 @@ firstMenu(){
 
 	int count = 0;
 	string userr;
-	int passworddd = 0;
+	string passworddd;
 
 	cout << "Digite seu nome de usuário:";
 	cin >> userr;
