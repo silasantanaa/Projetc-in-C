@@ -6,6 +6,7 @@
 #include <string.h>
 #include <sstream>
 #include <windows.h>
+#include <typeinfo>
 
 using namespace std;
 
