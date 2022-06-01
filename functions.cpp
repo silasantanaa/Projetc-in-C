@@ -127,7 +127,16 @@ retornarMain(){
 
 retornarSecondMenu(){
 	cout << "Retornando ao Menu do Usuário!" << endl << endl;
+
+	// Função retornar Menu Usuário
+    secondMenu();
 	return 0;
+}
+
+functionHour(){
+
+    return 0;
+
 }
 
 secondMenu(){
@@ -151,11 +160,12 @@ secondMenu(){
 
 	switch(optionSwitch){
 
+        case 2:
+            functionHour();
+
 		case 3:
 			functionTabuada();
-			// Função retornar Menu Usuário
 			retornarSecondMenu();
-			secondMenu();
 
 		case 4:
 			retornarMain();

@@ -11,14 +11,15 @@
 1653940762 source:c:\users\desktop\documents\myprojects c++\projetc-in-c\main.cpp
 	"functions.h"
 
-1653957089 source:c:\users\desktop\documents\myproject c++\projetc-in-c\functions.cpp
+1654043508 source:c:\users\desktop\documents\myproject c++\projetc-in-c\functions.cpp
 	"functions.h"
 
-1653957089 c:\users\desktop\documents\myproject c++\projetc-in-c\functions.h
+1654043559 c:\users\desktop\documents\myproject c++\projetc-in-c\functions.h
 	<iostream>
 	<locale>
 	<string.h>
 	<sstream>
+	<windows.h>
 
 1653957089 source:c:\users\desktop\documents\myproject c++\projetc-in-c\main.cpp
 	"functions.h"
