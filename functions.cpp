@@ -119,9 +119,12 @@ retornarMain(){
     while (sec >=1){
         cout << "Saindo em " << sec << endl;
         sec --;
+        Sleep(1000);
     }
 
     cout << "Retornando ao Menu Principal!" << endl << endl;
+    Sleep(1500);
+    system("cls");
     return 0;
 }
 
@@ -150,7 +153,8 @@ secondMenu(){
 	cout << "1- ." << endl;
 	cout << "2-Horário." << endl;
 	cout << "3-Tabuada." << endl;
-	cout << "4-Sair." << endl;
+	cout << "4-Alterar Informações." << endl;
+	cout << "5-Sair." << endl;
 
 	cout << endl;
 	cout << "Opção:";
@@ -160,6 +164,8 @@ secondMenu(){
 
 	switch(optionSwitch){
 
+	    case 1:
+
         case 2:
             functionHour();
 
@@ -167,13 +173,16 @@ secondMenu(){
 			functionTabuada();
 			retornarSecondMenu();
 
-		case 4:
+        case 4:
+
+		case 5:
 			retornarMain();
 			return 0;
 
 		default:
 			cout << "Opção inválida, tente novamente!" << endl << endl;
 	}
+
 
 	}
 }
