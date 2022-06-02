@@ -143,6 +143,14 @@ functionHour(){
     return 0;
 }
 
+functionAlterUser(){
+
+
+
+    return 0;
+
+}
+
 secondMenu(){
 
 	int optionSwitch = 0;
